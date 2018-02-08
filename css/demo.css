@@ -18,10 +18,24 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
+span{
+	font-family: 'Dhurjati', sans-serif;
+}
+
+h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+  	font-family: 'Nanum Myeongjo', serif;
     color: #fff;
-    background: #47a3da;
+		background: #FFF200;
+}
+
+h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FFC58B
 }
 
 a {
@@ -38,6 +52,7 @@ a:hover {
 	max-width: 69em;
 	margin: 0 auto;
 	padding: 2.875em 1.875em 1.875em;
+	background: #FF5F00
 }
 
 .container > header h1 {
